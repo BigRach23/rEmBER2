@@ -8,7 +8,7 @@ from folium.features import DivIcon
 from fires_mcp import get_active_fires_cached, get_fire_summary_by_state, get_fires_df
 
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR KEY"
 app = Flask(__name__, static_folder="static")
 CORS(app)
 
